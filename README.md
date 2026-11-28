@@ -6,7 +6,7 @@ This skill targets development by a single user working with an AI agent.
 
 ## When to use
 
-Use [`direct-data-flow`](SKILL.md) when implementing, refactoring, or reviewing code that passes or transforms data across conversions, intermediate representations, serialization stages, forwarding wrappers, or adapters.
+Use [`direct-data-flow`](SKILL.md) during implementation, refactoring, or code review. If an affected path passes or transforms data, trace its conversions, intermediate representations, serialization stages, wrappers, and adapters.
 
 ## Core idea and responsibility
 

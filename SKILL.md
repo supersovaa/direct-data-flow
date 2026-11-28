@@ -1,11 +1,11 @@
 ---
 name: direct-data-flow
-description: Choose a direct path from producer to consumer when implementing, refactoring, or reviewing code that passes or transforms data.
+description: Use when implementing, refactoring, or reviewing code. Examine how data and calls reach their consumers.
 ---
 
 # Direct Data Flow
 
-Apply this rule to data and calls between producers and consumers during implementation, refactoring, and code review. This includes serialization, conversions, intermediate values, forwarding wrappers, and adapters.
+When the affected code passes or transforms data, trace the producer-to-consumer path. Include serialization, conversions, intermediate values, forwarding wrappers, and adapters along that path.
 
 ## Core rule
 
