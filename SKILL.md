@@ -1,11 +1,11 @@
 ---
 name: direct-data-flow
-description: Choose direct data and call paths when implementing, refactoring, or reviewing code, including serialization, representation conversions, intermediate values, forwarding wrappers, and adapters.
+description: Use when implementing, refactoring, or reviewing code. Examine how data and calls reach their consumers.
 ---
 
 # Direct Data Flow
 
-Use this skill when implementing, refactoring, or reviewing code that passes or transforms data between producers and consumers.
+When the affected code passes or transforms data, trace the producer-to-consumer path. Include serialization, conversions, intermediate values, forwarding wrappers, and adapters along that path.
 
 ## Core rule
 
